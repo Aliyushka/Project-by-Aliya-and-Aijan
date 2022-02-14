@@ -22,23 +22,3 @@ body{
     left: 80px;
     top: 44px;
 }
-.FIO{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.passport{
-    display: flex;
-    flex-wrap: wrap;
-}
-h3{
-    height: 24px;
-    font-family: 'Sora', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
