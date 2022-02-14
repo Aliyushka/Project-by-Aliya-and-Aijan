@@ -42,3 +42,13 @@ h3{
     align-items: center;
     color: #000000;
 }
+
+p{
+    height: 16px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
