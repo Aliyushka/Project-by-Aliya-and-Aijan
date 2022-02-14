@@ -8,16 +8,101 @@ body{
 .main{
     height: 100vh;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 .window{
     position: absolute;
     border: 3px solid red;
     width: 645px;
-    height: 100vh;
+    /*height: 100vh;*/
     left: 80px;
     top: 44px;
 }
+.FIO, .passport{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3{
+    height: 24px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 0;
+}
+
+.text{
+    height: 16px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.FIO p, .passport p, .select p{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: 2px;
+    margin-top: -2px;
+
+}
+.FIO input, .passport input{
+    width: 200px;
+    height: 48px;
+    left: 80px;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    margin: 8px 8px 16px 0;
+    margin-top: -9px;
+}
+input::placeholder{
+    height: 16px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14x;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.25);
+    padding: 16px;
+}
+
+.adress input{
+    width: 416px;
+}
+
+select{
+    width: 207px;
+    height: 52px;
+    left: 80px;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.25);
+    margin-top: -10px;
+}
+
+.liveadress p{
+    margin-left: 9px;
+}
+.liveadress input{
+    width: 413px;
+    height: 48px;
+    left: 80px;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
