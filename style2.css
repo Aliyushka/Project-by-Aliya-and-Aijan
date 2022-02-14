@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: #F5F5F5;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.window{
+    position: absolute;
+    border: 3px solid red;
+    width: 645px;
+    height: 100vh;
+    left: 80px;
+    top: 44px;
+}
+
+.income{
+    margin:0 0 0 82px;
+}
+
+.org{
+    display: flex;
+    margin: 0 0 0 80px;
+
+}
+.organ{
+    margin-right: 160px;
+}
+
+.product{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.megacom{
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.accountant{
+    width: 408px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.month{
+    width: 304px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.bye{
+    width: 625px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.price{
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.credit{
+    margin-left: 130px;
+    margin-right: 90px;
+}
+.but{
+    display: flex;
+}
+.next{
+    width: 370px;
+    height: 48px;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-left: 220px;
+    border: black 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.next a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.block2 p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: #F5F5F5;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.window{
+    position: absolute;
+    border: 3px solid red;
+    width: 800px;
+    height: 100vh;
+    left: 80px;
+    top: 44px;
+}
+
+.income{
+    margin:0 0 0 82px;
+}
+
+.org{
+    display: flex;
+    margin: 0 0 0 80px;
+
+}
+.organ{
+    margin-right: 160px;
+}
+
+.product{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.megacom{
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.accountant{
+    width: 408px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.month{
+    width: 304px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.bye{
+    width: 625px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.price{
+    width: 200px;
+    height: 48px;
+    opacity: 0.5;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.credit{
+    margin-left: 130px;
+    margin-right: 90px;
+}
+.but{
+    display: flex;
+}
+.next{
+    width: 370px;
+    height: 48px;
+    background-color: black;
+    border-radius: 4px;
+    margin-top: 32px;
+    margin-left: 220px;
+    border: black 1px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.next a{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.block2 p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
