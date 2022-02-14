@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: #F5F5F5;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.window{
+    position: absolute;
+    border: 3px solid red;
+    width: 800px;
+    height: 100vh;
+    left: 80px;
+    top: 44px;
+}
