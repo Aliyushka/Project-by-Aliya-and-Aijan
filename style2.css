@@ -1,28 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+
 body{
     margin: 0;
     padding: 0;
 }
 
 .main{
-    background: #F5F5F5;
     height: 100vh;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 .window{
     position: absolute;
     border: 3px solid red;
     width: 645px;
-    height: 100vh;
     left: 80px;
     top: 44px;
 }
 
-.income{
-    margin:0 0 0 82px;
+/*.income{*/
+/*    margin:0 0 0 82px;*/
+/*}*/
+h3{
+    height: 24px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 0;
 }
 
 .org{
