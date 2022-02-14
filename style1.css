@@ -6,31 +6,23 @@ body{
 }
 
 .main{
-    background: #F5F5F5;
     height: 100vh;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 .window{
     position: absolute;
     border: 3px solid red;
-    width: 800px;
+    width: 645px;
     height: 100vh;
     left: 80px;
     top: 44px;
 }
-.FIO{
+.FIO, .passport{
     display: flex;
     flex-wrap: wrap;
 }
 
-.passport{
-    display: flex;
-    flex-wrap: wrap;
-}
 h3{
     height: 24px;
     font-family: 'Sora', sans-serif;
@@ -41,9 +33,10 @@ h3{
     display: flex;
     align-items: center;
     color: #000000;
+    margin-top: 0;
 }
 
-p{
+.text{
     height: 16px;
     font-family: 'Sora', sans-serif;
     font-style: normal;
@@ -51,4 +44,60 @@ p{
     font-size: 14px;
     line-height: 18px;
     color: #000000;
+    margin-bottom: 3px;
 }
+
+.FIO p, .passport p{
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.FIO input, .passport input{
+    width: 200px;
+    height: 48px;
+    left: 80px;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    margin: 8px 8px 16px 0;
+    margin-top: -10px;
+}
+input::placeholder{
+    height: 16px;
+    font-family: 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14x;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.25);
+    padding: 16px;
+}
+
+.adress input{
+    width: 416px;
+}
+.bank{
+    display: flex;
+}
+select{
+    width: 207px;
+    height: 52px;
+    left: 80px;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: -10px;
+}
+
+.liveadress input{
+    width: 413px;
+    height: 48px;
+    left: 80px;
+    border: 0.5px solid #AEAEAE;
+    border-radius: 8px;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+
